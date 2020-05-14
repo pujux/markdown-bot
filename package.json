@@ -5,9 +5,10 @@
   "main": "app.js",
   "dependencies": {
     "discord.js": "12.2.0",
-    "dotenv": "8.2.0",
-    "node-html-to-image": "2.0.0",
-    "showdown": "1.9.1"
+    "dotenv": "^8.2.0",
+    "node-html-to-image": "^2.0.0",
+    "showdown": "^1.9.1",
+    "mem": ">=4.0.0"
   },
   "devDependencies": {
     "@aero/eslint-config": "1.0.1",
