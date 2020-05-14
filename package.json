@@ -1,0 +1,32 @@
+{
+  "name": "markdown-bot",
+  "version": "1.0.0",
+  "description": "markdown bot",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "12.2.0",
+    "dotenv": "8.2.0",
+    "node-html-to-image": "2.0.0",
+    "showdown": "1.9.1"
+  },
+  "devDependencies": {
+    "@aero/eslint-config": "1.0.1",
+    "nodemon": "2.0.3",
+    "eslint": "6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "lint": "eslint '*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puf17640/markdown-bot.git"
+  },
+  "author": "puf17640",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puf17640/markdown-bot/issues"
+  },
+  "homepage": "https://github.com/puf17640/markdown-bot#readme"
+}
